@@ -27,3 +27,5 @@ PHP Interaction code with Twitter API for feeds.
 
 		?>
 
+Special thanks and primary contributor:
+Raylin Aquino [@raylinanthony](https://github.com/raylinanthony)
