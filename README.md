@@ -4,7 +4,7 @@ PHP Interaction code with Twitter API for feeds.
 
     <?php 
 		/**
-		* Argumentos para el feed de twitter
+		* Most but not all the arguments for class interaction
 		*/
 		$twitter_args = array(
 			'user'						=> 'richardblondet',
@@ -13,15 +13,15 @@ PHP Interaction code with Twitter API for feeds.
 			'access_token'				=> 'ACCESS-TOKEN',
 			'access_token_secret'		=> 'TOKEN-SECRET',
 			'amount' 					=> 3,
-			'link_class' 				=> 'adv-twitter-feed-link',
+			'link_class' 				=> 'twitter-feed-link',
 			'twitter_feed_class'		=> '',
-			'twitter_feed_id' 			=> 'adv-twitter-feed-'.$this->textdomain,
+			'twitter_feed_id' 			=> 'twitter-feed',
 			'tweets_container'			=> 'div',
-			'tweets_container_class' 	=> 'adv-tweets',
+			'tweets_container_class' 	=> 'tweets',
 			'tweet_single_tag'			=> 'div',
-			'tweet_class' 				=> 'adv-tweet',
-			'tweet_text_class'			=> 'adv-tweet-text',
-			'show_options'  			=> false,
+			'tweet_class' 				=> 'tweet',
+			'tweet_text_class'			=> 'tweet-text',
+			'show_options'  			=> true,
 			'twitter_feed_show_title' 	=> false,
 		);
 
